@@ -8,13 +8,18 @@ body {
     color: #4c6986;
 }
 
+.title {
+    max-width: 500px;
+}
+
 .wrapper {
     max-width: 1440px;
     height: 800px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
+    padding: 40px;
 }
 
 h1 {
@@ -54,36 +59,46 @@ h1 {
     font-size: 24px;
 }
 
-.header .player-x {
+.header .player-X {
     flex: 1;
     border-bottom: 5px solid #eee;
     padding-bottom: 8px;
 }
 
-.header .player-o {
+
+.player-X.active {
+    color: #42BED7;
+    border-color: #42BED7;
+}
+
+.header .player-O {
     flex: 1;
     border-bottom: 5px solid #eee;
     padding-bottom: 8px;
+}
+
+.player-O.active {
+    color: #D7BAFB;
+    border-color: #D7BAFB;
 }
 
 .board {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);          
-    /* 1fr = 1 column space*/
-    grid-template-rows: repeat((3, 1fr));
-    grid-gap: 0;
-    flex-grow: 1;
+    grid-gap: 0px;
     padding: 10px;
-}
-
-.board-tile {
+    flex-grow: 1;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  
+  .board-tile {
+    background: white;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 80px;
-    background: white;
-    cursor: pointer;
-}
+  }
 
 .board-tile:not(:nth-child(3n)) {
     border-right: 3px solid rgba(137, 163, 189, 0.58);
@@ -96,4 +111,26 @@ h1 {
 .board-tile:hover {
     background: #eee;
 
+}
+
+.tile-x {
+    color: #42BED7;
+}
+
+.tile-o {
+    color: #D7BAFB;
+}
+
+.tile-winner span{
+    color: #23CE6B;
+}
+
+@media only screen and (max-width: 1200px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-bottom: 50px;
+    }
 }
