@@ -3,7 +3,7 @@ A Tic-tac-toe game created using JavaScript.
 
 Enjoy the game: https://git.heroku.com/tic-tac-toe-by-avni.git
 
-#Screenshots of the game
+# Screenshots of the game
 ![Screenshot from 2021-08-21 02-45-40](https://user-images.githubusercontent.com/55761079/130294231-b89e7154-f834-458f-9b0b-6dbde5c05e70.png)
 ![Screenshot from 2021-08-21 02-45-43](https://user-images.githubusercontent.com/55761079/130294241-94b11a6e-d2cc-4a14-9191-071a597c791a.png)
 ![Screenshot from 2021-08-21 02-45-46](https://user-images.githubusercontent.com/55761079/130294258-136a3011-0686-411c-a6d0-9152b94f006e.png)
