@@ -1,7 +1,7 @@
 # Tic-tac-toe
 A Tic-tac-toe game created using JavaScript.
 
-Enjoy the game: https://git.heroku.com/tic-tac-toe-by-avni.git
+Enjoy the game: https://tic-tac-toe-by-avni.herokuapp.com/
 
 # Screenshots of the game
 ![Screenshot from 2021-08-21 02-45-40](https://user-images.githubusercontent.com/55761079/130294231-b89e7154-f834-458f-9b0b-6dbde5c05e70.png)
